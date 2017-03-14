@@ -15,8 +15,12 @@ return [
     ],
     'EXT' => [
         'extConf' => [
+            'fluidcontent' => 'a:0:{}',
+            'fluidpages' => 'a:3:{s:8:"autoload";s:1:"1";s:8:"doktypes";s:0:"";s:33:"pagesLanguageConfigurationOverlay";s:1:"0";}',
+            'flux' => 'a:4:{s:9:"debugMode";s:1:"0";s:7:"compact";s:1:"0";s:17:"listNestedContent";s:1:"0";s:12:"handleErrors";s:1:"0";}',
             'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
             'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+            'vhs' => 'a:0:{}',
         ],
     ],
     'FE' => [
@@ -33,7 +37,6 @@ return [
             'TYPO3\CMS\Install\Updates\BackendUserStartModuleUpdate' => 1,
             'TYPO3\CMS\Install\Updates\Compatibility6ExtractionUpdate' => 1,
             'TYPO3\CMS\Install\Updates\ContentTypesToTextMediaUpdate' => 1,
-            'TYPO3\CMS\Install\Updates\ExtensionManagerTables' => 1,
             'TYPO3\CMS\Install\Updates\FileListIsStartModuleUpdate' => 1,
             'TYPO3\CMS\Install\Updates\FilesReplacePermissionUpdate' => 1,
             'TYPO3\CMS\Install\Updates\LanguageIsoCodeUpdate' => 1,

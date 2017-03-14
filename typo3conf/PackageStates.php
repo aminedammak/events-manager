@@ -240,6 +240,30 @@ return [
             'packagePath' => 'typo3/sysext/viewpage/',
             'suggestions' => [],
         ],
+        'flux' => [
+            'composerName' => 'fluidtypo3/flux',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/flux/',
+            'suggestions' => [],
+        ],
+        'fluidcontent' => [
+            'composerName' => 'fluidtypo3/fluidcontent',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/fluidcontent/',
+            'suggestions' => [],
+        ],
+        'fluidpages' => [
+            'composerName' => 'fluidtypo3/fluidpages',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/fluidpages/',
+            'suggestions' => [],
+        ],
+        'vhs' => [
+            'composerName' => 'fluidtypo3/vhs',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/vhs/',
+            'suggestions' => [],
+        ],
         'adodb' => [
             'composerName' => 'typo3/cms-adodb',
             'state' => 'inactive',

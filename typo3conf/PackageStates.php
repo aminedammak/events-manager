@@ -258,6 +258,18 @@ return [
             'packagePath' => 'typo3conf/ext/fluidpages/',
             'suggestions' => [],
         ],
+        'extension_builder' => [
+            'composerName' => 'ebt/extension_builder',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/extension_builder/',
+            'suggestions' => [],
+        ],
+        'usertheme' => [
+            'composerName' => 'usertheme',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/usertheme/',
+            'suggestions' => [],
+        ],
         'vhs' => [
             'composerName' => 'fluidtypo3/vhs',
             'state' => 'active',

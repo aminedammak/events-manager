@@ -102,6 +102,18 @@ return [
             'packagePath' => 'typo3/sysext/wizard_sortpages/',
             'suggestions' => [],
         ],
+        'version' => [
+            'composerName' => 'typo3/cms-version',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/version/',
+            'suggestions' => [],
+        ],
+        'workspaces' => [
+            'composerName' => 'typo3/cms-workspaces',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/workspaces/',
+            'suggestions' => [],
+        ],
         'about' => [
             'composerName' => 'typo3/cms-about',
             'state' => 'active',
@@ -156,6 +168,12 @@ return [
             'packagePath' => 'typo3/sysext/filelist/',
             'suggestions' => [],
         ],
+        'filemetadata' => [
+            'composerName' => 'typo3/cms-filemetadata',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/filemetadata/',
+            'suggestions' => [],
+        ],
         'fluid_styled_content' => [
             'composerName' => 'typo3/cms-fluid-styled-content',
             'state' => 'active',
@@ -192,16 +210,34 @@ return [
             'packagePath' => 'typo3/sysext/lowlevel/',
             'suggestions' => [],
         ],
+        'opendocs' => [
+            'composerName' => 'typo3/cms-opendocs',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/opendocs/',
+            'suggestions' => [],
+        ],
         'recordlist' => [
             'composerName' => 'typo3/cms-recordlist',
             'state' => 'active',
             'packagePath' => 'typo3/sysext/recordlist/',
             'suggestions' => [],
         ],
+        'recycler' => [
+            'composerName' => 'typo3/cms-recycler',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/recycler/',
+            'suggestions' => [],
+        ],
         'reports' => [
             'composerName' => 'typo3/cms-reports',
             'state' => 'active',
             'packagePath' => 'typo3/sysext/reports/',
+            'suggestions' => [],
+        ],
+        'scheduler' => [
+            'composerName' => 'typo3/cms-scheduler',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/scheduler/',
             'suggestions' => [],
         ],
         'sv' => [
@@ -258,22 +294,22 @@ return [
             'packagePath' => 'typo3conf/ext/fluidpages/',
             'suggestions' => [],
         ],
-        'extension_builder' => [
-            'composerName' => 'ebt/extension_builder',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/extension_builder/',
-            'suggestions' => [],
-        ],
-        'usertheme' => [
-            'composerName' => 'usertheme',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/usertheme/',
-            'suggestions' => [],
-        ],
         'vhs' => [
             'composerName' => 'fluidtypo3/vhs',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/vhs/',
+            'suggestions' => [],
+        ],
+        'lj_templates' => [
+            'composerName' => 'lj_templates',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/lj_templates/',
+            'suggestions' => [],
+        ],
+        'extension_builder' => [
+            'composerName' => 'ebt/extension_builder',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/extension_builder/',
             'suggestions' => [],
         ],
         'adodb' => [
@@ -300,12 +336,6 @@ return [
             'packagePath' => 'typo3/sysext/feedit/',
             'suggestions' => [],
         ],
-        'filemetadata' => [
-            'composerName' => 'typo3/cms-filemetadata',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/filemetadata/',
-            'suggestions' => [],
-        ],
         'indexed_search' => [
             'composerName' => 'typo3/cms-indexed-search',
             'state' => 'inactive',
@@ -324,24 +354,6 @@ return [
             'packagePath' => 'typo3/sysext/linkvalidator/',
             'suggestions' => [],
         ],
-        'opendocs' => [
-            'composerName' => 'typo3/cms-opendocs',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/opendocs/',
-            'suggestions' => [],
-        ],
-        'recycler' => [
-            'composerName' => 'typo3/cms-recycler',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/recycler/',
-            'suggestions' => [],
-        ],
-        'scheduler' => [
-            'composerName' => 'typo3/cms-scheduler',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/scheduler/',
-            'suggestions' => [],
-        ],
         'sys_action' => [
             'composerName' => 'typo3/cms-sys-action',
             'state' => 'inactive',
@@ -355,18 +367,6 @@ return [
             'suggestions' => [
                 'sys_action',
             ],
-        ],
-        'version' => [
-            'composerName' => 'typo3/cms-version',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/version/',
-            'suggestions' => [],
-        ],
-        'workspaces' => [
-            'composerName' => 'typo3/cms-workspaces',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/workspaces/',
-            'suggestions' => [],
         ],
     ],
     'version' => 4,

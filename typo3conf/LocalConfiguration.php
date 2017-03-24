@@ -21,16 +21,23 @@ return [
             'fluidpages' => 'a:3:{s:8:"autoload";s:1:"1";s:8:"doktypes";s:0:"";s:33:"pagesLanguageConfigurationOverlay";s:1:"0";}',
             'flush_language_cache' => 'a:0:{}',
             'flux' => 'a:4:{s:9:"debugMode";s:1:"0";s:7:"compact";s:1:"0";s:17:"listNestedContent";s:1:"0";s:12:"handleErrors";s:1:"0";}',
+<<<<<<< HEAD
             'opendocs' => 'a:0:{}',
+=======
+            'lj_templates' => 'a:0:{}',
+>>>>>>> bfa30015daf97ba71d264e793c8e849b68bc85f6
             'recycler' => 'a:0:{}',
             'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
             'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
             'scheduler' => 'a:4:{s:11:"maxLifetime";s:4:"1440";s:11:"enableBELog";s:1:"1";s:15:"showSampleTasks";s:1:"1";s:11:"useAtdaemon";s:1:"0";}',
+<<<<<<< HEAD
             'static_info_tables' => 'a:1:{s:13:"enableManager";s:1:"0";}',
             'static_info_tables_de' => 'a:0:{}',
             'static_info_tables_fr' => 'a:0:{}',
             't3adminer' => 'a:3:{s:8:"IPaccess";s:0:"";s:14:"applyDevIpMask";s:1:"0";s:15:"exportDirectory";s:9:"fileadmin";}',
             'user_theme' => 'a:0:{}',
+=======
+>>>>>>> bfa30015daf97ba71d264e793c8e849b68bc85f6
             'usertheme' => 'a:0:{}',
             'version' => 'a:0:{}',
             'vhs' => 'a:0:{}',

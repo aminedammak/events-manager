@@ -294,6 +294,7 @@ return [
             'packagePath' => 'typo3conf/ext/fluidpages/',
             'suggestions' => [],
         ],
+<<<<<<< HEAD
         'static_info_tables' => [
             'composerName' => 'sjbr/static-info-tables',
             'state' => 'active',
@@ -322,12 +323,24 @@ return [
             'composerName' => 't3adminer',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/t3adminer/',
-            'suggestions' => [],
-        ],
+=======
         'vhs' => [
             'composerName' => 'fluidtypo3/vhs',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/vhs/',
+            'suggestions' => [],
+        ],
+        'lj_templates' => [
+            'composerName' => 'lj_templates',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/lj_templates/',
+>>>>>>> bfa30015daf97ba71d264e793c8e849b68bc85f6
+            'suggestions' => [],
+        ],
+        'extension_builder' => [
+            'composerName' => 'ebt/extension_builder',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/extension_builder/',
             'suggestions' => [],
         ],
         'user_theme' => [
@@ -398,12 +411,15 @@ return [
                 'sys_action',
             ],
         ],
+<<<<<<< HEAD
         'usertheme' => [
             'composerName' => 'usertheme',
             'state' => 'inactive',
             'packagePath' => 'typo3conf/ext/usertheme/',
             'suggestions' => [],
         ],
+=======
+>>>>>>> bfa30015daf97ba71d264e793c8e849b68bc85f6
     ],
     'version' => 4,
 ];

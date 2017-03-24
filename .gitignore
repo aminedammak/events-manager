@@ -1,1 +1,25 @@
-/typo3temp
+# This uses a whitelist strategy
+
+# At first nothing is included in git at all
+/*
+# with the exclamation mark (!) there are several
+# files and folders included back again
+
+!package.json
+!Gruntfile.js
+
+!/.gitignore
+!/.gitmodules
+
+!.htaccess
+!/robots.txt
+!/favicon.ico
+!/typo3-favicon.ico
+
+!/fileadmin
+!/typo3
+!/typo3_src
+!/typo3conf
+
+!/uploads
+!/vendor

@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => false,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$P$CCQzv1o2vuLVU2ibNCQlGPRJ1bfmfg1',
+        'installToolPassword' => '$P$CODRL6.P2xByI9ZWyIC2X3eK8t8Gzu1',
         'loginSecurityLevel' => 'rsa',
     ],
     'DB' => [
@@ -16,13 +16,25 @@ return [
     'EXT' => [
         'extConf' => [
             'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:1:"1";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
+            'filemetadata' => 'a:0:{}',
             'fluidcontent' => 'a:0:{}',
             'fluidpages' => 'a:3:{s:8:"autoload";s:1:"1";s:8:"doktypes";s:0:"";s:33:"pagesLanguageConfigurationOverlay";s:1:"0";}',
+            'flush_language_cache' => 'a:0:{}',
             'flux' => 'a:4:{s:9:"debugMode";s:1:"0";s:7:"compact";s:1:"0";s:17:"listNestedContent";s:1:"0";s:12:"handleErrors";s:1:"0";}',
+            'opendocs' => 'a:0:{}',
+            'recycler' => 'a:0:{}',
             'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
             'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+            'scheduler' => 'a:4:{s:11:"maxLifetime";s:4:"1440";s:11:"enableBELog";s:1:"1";s:15:"showSampleTasks";s:1:"1";s:11:"useAtdaemon";s:1:"0";}',
+            'static_info_tables' => 'a:1:{s:13:"enableManager";s:1:"0";}',
+            'static_info_tables_de' => 'a:0:{}',
+            'static_info_tables_fr' => 'a:0:{}',
+            't3adminer' => 'a:3:{s:8:"IPaccess";s:0:"";s:14:"applyDevIpMask";s:1:"0";s:15:"exportDirectory";s:9:"fileadmin";}',
+            'user_theme' => 'a:0:{}',
             'usertheme' => 'a:0:{}',
+            'version' => 'a:0:{}',
             'vhs' => 'a:0:{}',
+            'workspaces' => 'a:0:{}',
         ],
     ],
     'FE' => [

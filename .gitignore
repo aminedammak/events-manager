@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This uses a whitelist strategy
 
 # At first nothing is included in git at all
@@ -24,3 +25,7 @@
 
 !/uploads
 !/vendor
+=======
+/typo3temp
+/node_modules
+>>>>>>> detach2
